@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* section part one conatainer  */
+
+.section-container{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("images/banner/banner1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+.conatainer{
+    width: 40%;
+    padding-top: 100px;
+    text-align: right;
+    padding-right: 100px;
+}
+
+
+.link-button{
+    border-radius: 5px;
+    background: #F15B22;
+    width: 160px;
+    height: 64px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+
+}
+
+.text-title{
+    font-size: 65px;
+    margin: 25px;
+}
+
+.text{
+    ont-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-bottom: 34px;
+}
+
+/* year conatainer begining */
+
+.year-container{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+    padding: 70px;
+    margin-top: 200px;
+    
+}
+
+.y-container{
+    width: 400px;
+}
+
+.year-title{
+    font-size: 60px;
+}
+
+.year-description{
+    color:#444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.year-list{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    list-style: none;
+}
+
+/* plan section style */
+
+.plan-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+.plan-title{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.banner-section{
+    display: flex;
+    justify-content: ;
+    align-items: flex-end;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),url("./images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1140px;
+    height: 300px;
+    margin-left: 350px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.banner-info{
+    margin-bottom: 60px;
+    margin-left: 40px;
+}
+
+.banner-text{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.link-btn{
+    border-radius: 5px;
+    background: #f8f7f7;
+    width: 160px;
+    height: 64px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    margin-top: 15px;
+    
+}
